@@ -1,3 +1,3 @@
-import SmartError from "./SmartError";
+import SmartError from './SmartError';
 
 export default SmartError;
