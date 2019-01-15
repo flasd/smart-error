@@ -14,10 +14,12 @@
     "bfj": "6.1.1",
     "case-sensitive-paths-webpack-plugin": "2.1.2",
     "chalk": "2.4.1",
+    "cross-env": "^5.2.0",
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
     "eslint": "5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-react-app": "^3.0.6",
     "eslint-loader": "2.1.1",
     "eslint-plugin-flowtype": "2.50.1",
@@ -54,8 +56,9 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "npm run quality-check && node scripts/build.js",
+    "lint": "eslint --ext .js --ext .jsx src/",
+    "quality-check": "cross-env CI=true npm run test -- --coverage && npm run lint",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
