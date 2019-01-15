@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "overrides": [
+    {
+      "files": ["src/**/*.test.js", "src/**/*.test.jsx", "__mocks__/**/*.js"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "global-require": "off"
+      },
+      "env": {
+        "browser": false,
+        "jest": true
+      }
+    }
+  ]
+}
