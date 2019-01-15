@@ -2,9 +2,9 @@
 
 Show rich error messages during development and vague messages in production.
 
-[![Build Status](https://travis-ci.org/flasd/smart-error.svg?branch=master)](https://travis-ci.org/flasd/cpf-check)
-[![Coverage Status](https://coveralls.io/repos/github/flasd/smart-error/badge.svg?branch=master)](https://coveralls.io/github/flasd/smart-error?branch=master)
-[![npm version](https://badge.fury.io/js/smart-error.svg)](https://www.npmjs.com/package/smart-error)
+[![Build Status](https://travis-ci.org/@flasd/smart-error.svg?branch=master)](https://travis-ci.org/@flasd/smart-error)
+[![Coverage Status](https://coveralls.io/repos/github/@flasd/smart-error/badge.svg?branch=master)](https://coveralls.io/github/@flasd/smart-error?branch=master)
+[![npm version](https://badge.fury.io/js/@flasd/smart-error.svg)](https://www.npmjs.com/package/@flasd/smart-error)
 [![npm downloads per month](https://img.shields.io/npm/dm/@flasd/smart-error.svg)](https://www.npmjs.com/package/@flasd/smart-error)
 
 ### Instalation
